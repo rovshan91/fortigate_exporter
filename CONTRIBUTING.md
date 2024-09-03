@@ -5,10 +5,10 @@ Fortigate exporter uses GitHub to manage reviews of pull requests.
 * If you are a new contributor see: [Steps to Contribute](#steps-to-contribute)
 
 * If you have a trivial fix or improvement, go ahead and create a pull request,
-  addressing it to @bluecmd or @secustor.
+  addressing it to @rovshan91 or @secustor.
 
 * If you plan to do something more impacting, first discuss your ideas
-  in our [chat room](https://matrix.to/#/#fortigate_exporter:matrix.org) or the [discussions](https://github.com/bluecmd/fortigate_exporter/discussions/landing) page.
+  in our [chat room](https://matrix.to/#/#fortigate_exporter:matrix.org) or the [discussions](https://github.com/rovshan91/fortigate_exporter/discussions/landing) page.
   This will avoid unnecessary work and surely give you and us a good deal
   of inspiration.
 

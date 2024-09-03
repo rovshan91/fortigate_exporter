@@ -3,7 +3,7 @@ package probe
 import (
 	"log"
 
-	"github.com/bluecmd/fortigate_exporter/pkg/http"
+	"github.com/rovshan91/fortigate_exporter/pkg/http"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

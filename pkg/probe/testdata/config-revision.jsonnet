@@ -7,14 +7,14 @@
         "id":2,
         "time":1590345408,
         "version_id":"1",
-        "admin":"bluecmd",
+        "admin":"rovshan91",
         "comment":"Test SNMP"
       },
       {
         "id":1,
         "time":1590259051,
         "version_id":"1",
-        "admin":"bluecmd",
+        "admin":"rovshan91",
         "comment":""
       }
     ],

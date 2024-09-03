@@ -69,14 +69,14 @@ func TestLinkStatusFailure(t *testing.T) {
 	em := `
         # HELP fortigate_link_status Signals the status of the link. 1 means that this state is present in every other case the value is 0
         # TYPE fortigate_link_status gauge
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="down",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="error",vdom="bluecmd"} 1
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="unknown",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="up",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="down",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="error",vdom="bluecmd"} 1
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="unknown",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="up",vdom="bluecmd"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="down",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="error",vdom="rovshan91"} 1
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="unknown",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="up",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="down",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="error",vdom="rovshan91"} 1
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="unknown",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="up",vdom="rovshan91"} 0
 	`
 
 	if err := testutil.GatherAndCompare(r, strings.NewReader(em)); err != nil {
@@ -95,14 +95,14 @@ func TestLinkStatusUnknown(t *testing.T) {
 	em := `
         # HELP fortigate_link_status Signals the status of the link. 1 means that this state is present in every other case the value is 0
         # TYPE fortigate_link_status gauge
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="down",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="error",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="unknown",vdom="bluecmd"} 1
-        fortigate_link_status{link="port3",monitor="google-dns-v4",state="up",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="down",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="error",vdom="bluecmd"} 0
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="unknown",vdom="bluecmd"} 1
-        fortigate_link_status{link="port3",monitor="google-dns-v6",state="up",vdom="bluecmd"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="down",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="error",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="unknown",vdom="rovshan91"} 1
+        fortigate_link_status{link="port3",monitor="google-dns-v4",state="up",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="down",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="error",vdom="rovshan91"} 0
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="unknown",vdom="rovshan91"} 1
+        fortigate_link_status{link="port3",monitor="google-dns-v6",state="up",vdom="rovshan91"} 0
 	`
 	if err := testutil.GatherAndCompare(r, strings.NewReader(em)); err != nil {
 		t.Fatalf("metric compare: err %v", err)

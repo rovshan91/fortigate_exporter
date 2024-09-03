@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bluecmd/fortigate_exporter/internal/config"
+	"github.com/rovshan91/fortigate_exporter/internal/config"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

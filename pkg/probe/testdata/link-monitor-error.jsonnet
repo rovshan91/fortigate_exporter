@@ -14,7 +14,7 @@
         }
       }
     },
-    "vdom":"bluecmd",
+    "vdom":"rovshan91",
     "path":"system",
     "name":"link-monitor",
     "status":"success",

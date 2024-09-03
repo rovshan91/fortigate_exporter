@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/bluecmd/fortigate_exporter/pkg/http"
+	"github.com/rovshan91/fortigate_exporter/pkg/http"
 	"github.com/prometheus/client_golang/prometheus"
 )
 
@@ -36,7 +36,7 @@ func probeSystemResourceUsage(c http.FortiHTTP, meta *TargetMetadata) ([]prometh
 		// Ignore "disk", we get that from log/current-disk-usage instead with better resolution
 		Session  []resUsage
 		Session6 []resUsage
-		// TODO(bluecmd): These are TODO
+		// TODO(rovshan91): These are TODO
 		// Setuprate []resUsage
 		// Setuprate6 []resUsage
 		// NpuSession []resUsage `json:"npu_session"`
@@ -98,7 +98,7 @@ func probeSystemVDOMResources(c http.FortiHTTP, meta *TargetMetadata) ([]prometh
 		// Ignore "disk", we get that from log/current-disk-usage instead with better resolution
 		Session  []resUsage
 		Session6 []resUsage
-		// TODO(bluecmd): These are TODO
+		// TODO(rovshan91): These are TODO
 		// Setuprate []resUsage
 		// Setuprate6 []resUsage
 		// DiskLograte []resUsage `json:"disk_lograte"`

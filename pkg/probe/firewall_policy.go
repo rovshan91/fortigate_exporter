@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/bluecmd/fortigate_exporter/internal/version"
-	"github.com/bluecmd/fortigate_exporter/pkg/http"
+	"github.com/rovshan91/fortigate_exporter/internal/version"
+	"github.com/rovshan91/fortigate_exporter/pkg/http"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

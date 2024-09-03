@@ -22,9 +22,9 @@ average the last 15m. The output will be bits/s.
 
 | Element | Value| 
 |---------|------|
-`{id="9",instance="fgt-a",job="fortigate",name="SSH",protocol="ipv6",uuid="5cd4b62e-4904-51eb-b4a9-f52e75461e52",vdom="bluecmd"}` |	102805.48826815643
-`{id="28",instance="fgt-a",job="fortigate",name="fortigate exporter",protocol="ipv6",uuid="8753dcd2-4a07-51eb-bf78-c61aa31a8e1e",vdom="bluecmd"}` |	34443.977653631286
-`{id="11",instance="fgt-a",job="fortigate",name="tera cluster mgmt",protocol="ipv4",uuid="19a2c192-4905-51eb-9d14-5d1249566588",vdom="bluecmd"}` | 15239.401117318435
+`{id="9",instance="fgt-a",job="fortigate",name="SSH",protocol="ipv6",uuid="5cd4b62e-4904-51eb-b4a9-f52e75461e52",vdom="rovshan91"}` |	102805.48826815643
+`{id="28",instance="fgt-a",job="fortigate",name="fortigate exporter",protocol="ipv6",uuid="8753dcd2-4a07-51eb-bf78-c61aa31a8e1e",vdom="rovshan91"}` |	34443.977653631286
+`{id="11",instance="fgt-a",job="fortigate",name="tera cluster mgmt",protocol="ipv4",uuid="19a2c192-4905-51eb-9d14-5d1249566588",vdom="rovshan91"}` | 15239.401117318435
 
 ## Adding Version Information
 

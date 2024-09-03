@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bluecmd/fortigate_exporter/internal/config"
+	"github.com/rovshan91/fortigate_exporter/internal/config"
 )
 
 type FortiHTTP interface {
